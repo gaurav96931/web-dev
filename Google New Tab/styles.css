@@ -1,0 +1,86 @@
+a {
+  text-decoration: none;
+  color: #eeeeee;
+  font-size: 1.2rem;
+  margin: auto 5px;
+}
+
+body {
+  background-color: #191919;
+  margin: 0;
+  padding: 1rem;
+  color: #eeeeee;
+  text-align: center;
+  font-family: "Audiowide", sans-serif;
+}
+
+h1 {
+  font-size: 8rem;
+}
+
+header {
+  text-align: right;
+}
+
+img {
+  height: 3rem;
+}
+
+input {
+  width: 50%;
+  height: 2rem;
+  border-radius: 2rem;
+  padding: 0 1rem;
+  /* min-width: 600px; */
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+nav {
+  display: inline-flex;
+  padding: 0;
+  align-items: center;
+}
+
+.nav-link:hover {
+  border-bottom: 1px solid #eeeeee;
+  transform: scale(1.05);
+}
+
+.menu-icon {
+  width: 2.5rem;
+  height: 2rem;
+  margin: 5px 5px 0 5px;
+  padding: 0;
+}
+.menu-icon:hover {
+  background-color: rgba(238, 238, 238, 0.21);
+}
+
+.widgets-box {
+  display: flex;
+}
+
+.creator {
+  position: fixed;
+  bottom: 2px;
+  right: 5px;
+}
+
+.widgets-box {
+  margin: 1rem auto 1rem auto;
+  display: flex;
+  width: 40%;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.widgets {
+  padding: 0.25rem;
+  margin: 1rem 2rem;
+  border: 2px solid #eeeeee;
+  border-radius: 20%;
+  box-shadow: 0.2rem 0.1rem;
+}
